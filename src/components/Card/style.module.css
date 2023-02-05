@@ -1,0 +1,30 @@
+.card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.card p {
+    font-size: 50px;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card button {
+    position: absolute;
+    justify-content: flex-end;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    right: -20px;
+    top: -20px;
+    cursor: pointer;
+}
